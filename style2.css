@@ -1,0 +1,122 @@
+@media screen and (max-width: 699px)
+{
+    :root {
+        --extra-large: 32px;
+        --large: 32px;
+        --medium: 20px;
+        --small: 18px;
+    }
+
+    body {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(5, auto);
+        padding: 0 var(--small);
+        height: fit-content;
+    }
+
+    header {
+        grid-area: 1 / 1 / 2 / 1;
+    }
+
+    .icon {
+        width: var(--large);
+        height: var(--large);
+    }
+
+    aside {
+        padding: 0;
+        max-width: 500px;
+        margin-top: 0;
+        gap: var(--small);
+        grid-area: 2 / 1 / 3 / 1;
+        justify-self: center;
+    }
+
+    aside p {
+        font-size: var(--medium);
+    }
+
+    h3 {
+        font-size: var(--large);
+    }
+
+    #profile-image {
+        width: 45%;
+    }
+
+    main {
+        width: 100%;
+        align-items: center;
+        grid-area: 3 / 1 / 4 / 1;
+    }
+
+    #about-button {
+        display: none;
+    }
+
+    .skill-box span {
+        font-size: var(--medium);
+    }
+
+    .skill-box h2 {
+        font-size: var(--large);
+    }
+
+    #main-center {
+        width: 90%;
+        grid-area: 4 / 1 / 5 / 1;
+        justify-self: center;
+    }
+
+    #main-center section {
+        padding: 0;
+    }
+
+    #skills {
+        display: flex;
+    }
+
+    #skills-container {
+        grid-template-columns: repeat(1, 2fr);
+        grid-template-rows: repeat(3, auto);
+    }
+
+    .skill-box img {
+        height: 15vw;
+    }
+
+    section {
+        width: 100%;
+        align-items: center !important;
+        box-sizing: border-box;
+    }
+
+    section h1, section h2 {
+        text-align: center !important;
+    }
+
+    #skills .flex-container {
+        width: 50%;
+    }
+
+    .project-box {
+        min-width: 0;
+        padding: 0 var(--small);
+    }
+
+    .project-box a h2 {
+        font-size: var(--medium);
+    }
+
+    #contact h2 {
+        font-size: var(--medium);
+    }
+
+    footer {
+        grid-area: 5 / 1 / 5 / 1;
+    }
+
+    footer h2 {
+        font-size: var(--medium);
+    }
+}
