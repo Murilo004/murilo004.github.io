@@ -18,6 +18,10 @@
         grid-area: 1 / 1 / 2 / 1;
     }
 
+    #menu {
+        background-color: rgb(255, 119, 0);
+    }
+
     .icon {
         width: var(--large);
         height: var(--large);
@@ -41,7 +45,7 @@
     }
 
     #profile-image {
-        width: 45%;
+        width: 35%;
     }
 
     main {
