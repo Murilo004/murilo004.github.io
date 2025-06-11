@@ -74,7 +74,8 @@ aside {
 
 #profile-image {
     margin: 0px;
-    width: 50%;
+    width: 45%;
+    border-radius: 70px;
 }
 
 h3 {
