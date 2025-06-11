@@ -46,6 +46,7 @@
 
     #profile-image {
         width: 35%;
+        border-radius: 70px;
     }
 
     main {
